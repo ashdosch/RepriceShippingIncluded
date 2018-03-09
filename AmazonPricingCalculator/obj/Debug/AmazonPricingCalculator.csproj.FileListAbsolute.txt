@@ -1,0 +1,9 @@
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.exe.config
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csprojResolveAssemblyReference.cache
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.Form1.resources
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.Properties.Resources.resources
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csproj.GenerateResource.Cache
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.exe
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.pdb
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.exe
+F:\Coding Projects\AmazonPricingCalculator\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.pdb
