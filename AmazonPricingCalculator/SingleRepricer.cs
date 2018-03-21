@@ -25,7 +25,7 @@ namespace AmazonPricingCalculator
             if (!string.IsNullOrEmpty(text_Shipping.Text)) { shipping = Double.Parse(text_Shipping.Text); }
             double profitMarginInput = Double.Parse(text_PM.Text);
             label7.ForeColor = Color.Black;
-            label7.Text = "Price:";
+            label7.Text = "Amazon Price:";
 
             if (comboBox1.Text != "" && shipping != 0)
             {
@@ -37,7 +37,7 @@ namespace AmazonPricingCalculator
                 double commPercentage = commInput / 100;
                 double profitMargin = profitMarginInput / 100;
                 double PM_Lower_Range = profitMargin;
-                double PM_Upper_Range = profitMargin + .0004;
+                double PM_Upper_Range = profitMargin + .0014;
 
                 if (shipping > 0)
                 {
@@ -87,24 +87,28 @@ namespace AmazonPricingCalculator
                     while ((PM < PM_Lower_Range) || (PM > PM_Upper_Range))
                     {
                         label13.Text = "Loop Iterations: " + count;
-                        if (PM > PM_Upper_Range)
+                        if (PM >= PM_Upper_Range)
                         {
+                            price2 = price2 - shipping;
                             price2 = price2 - .01;
-                            commission2 = Math.Round((price2 * commPercentage), 2);
                             shipping = template_values(price2, templateType);
+                            price2 = price2 + shipping;
+                            commission2 = Math.Round((price2 * commPercentage), 2);
                             total2 = commission2 + adjusted_dn + shipping;
                             PM = (price2 - total2) / price2;
                         }
-                        else if (PM < PM_Lower_Range)
+                        else if (PM <= PM_Lower_Range)
                         {
+                            price2 = price2 - shipping;
                             price2 = price2 + .01;
-                            commission2 = Math.Round((price2 * commPercentage), 2);
                             shipping = template_values(price2, templateType);
+                            price2 = price2 + shipping;
+                            commission2 = Math.Round((price2 * commPercentage), 2);
                             total2 = commission2 + adjusted_dn + shipping;
                             PM = (price2 - total2) / price2;
                         }
                         count++;
-                        price2 = Math.Round(price2, 2);
+                        //price2 = Math.Round(price2, 2);
                     }
 
                     price2 = Math.Round(price2, 2);
@@ -143,6 +147,8 @@ namespace AmazonPricingCalculator
             comboBox1.Text = "";
             label13.Text = "Loop Iterations:";
         }
+
+
 
     }
 }
