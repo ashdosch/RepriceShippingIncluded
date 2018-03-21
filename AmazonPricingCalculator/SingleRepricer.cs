@@ -70,8 +70,7 @@ namespace AmazonPricingCalculator
                     }
 
                     price = Math.Round(price, 2);
-                    label7.Text = "Price: " + price;
-                    label8.Text = "Shipping Cost: " + shipping;
+                    label7.Text = "Amazon Price: " + price;
                 }
                 else
                 {
@@ -109,8 +108,8 @@ namespace AmazonPricingCalculator
                     }
 
                     price2 = Math.Round(price2, 2);
-                    label7.Text = "Price: " + price2;
-                    label8.Text = "Shipping Cost: " + shipping;
+                    double finalPrice = price2 - shipping;
+                    label7.Text = "Amazon Price: " + finalPrice + " + " + shipping;
                 }
             }
         }
@@ -136,15 +135,14 @@ namespace AmazonPricingCalculator
         private void button3_Click(object sender, EventArgs e)
         {
             label7.ForeColor = Color.Black;
-            label7.Text = "Price:";
+            label7.Text = "Amazon Price:";
             text_DN.Text = "";
             text_Comm.Text = "";
             text_Shipping.Text = "";
             text_PM.Text = "";
             comboBox1.Text = "";
             label13.Text = "Loop Iterations:";
-            label8.Text = "Shipping Cost:";
         }
-        
+
     }
 }

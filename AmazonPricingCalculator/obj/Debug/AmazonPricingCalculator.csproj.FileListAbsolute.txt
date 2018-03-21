@@ -16,3 +16,12 @@ C:\Users\ashleyd\Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\D
 C:\Users\ashleyd\Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.exe
 C:\Users\ashleyd\Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.pdb
 C:\Users\ashleyd\Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.SingleRepricer.resources
+F:\Reprice\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.exe.config
+F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.exe
+F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.pdb
+F:\Reprice\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.exe
+F:\Reprice\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.pdb
+F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csprojResolveAssemblyReference.cache
+F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.SingleRepricer.resources
+F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.Properties.Resources.resources
+F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csproj.GenerateResource.Cache
