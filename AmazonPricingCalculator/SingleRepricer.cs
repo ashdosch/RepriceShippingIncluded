@@ -26,6 +26,7 @@ namespace AmazonPricingCalculator
             double profitMarginInput = Double.Parse(text_PM.Text);
             label7.ForeColor = Color.Black;
             label7.Text = "Amazon Price:";
+            label8.Text = "Total Price:";
 
             if (comboBox1.Text != "" && shipping != 0)
             {
@@ -114,6 +115,7 @@ namespace AmazonPricingCalculator
                     price2 = Math.Round(price2, 2);
                     double finalPrice = price2 - shipping;
                     label7.Text = "Amazon Price: " + finalPrice + " + " + shipping;
+                    label8.Text = "Total Price: " + price2;
                 }
             }
         }
@@ -122,17 +124,19 @@ namespace AmazonPricingCalculator
         {
             if (template == "Main-Products-ShippingAddedByTemplate")
             {
-                if (price <= 10) { return 7.99; }
+                if (price <= 10) { return 8.99; }
                 else if (price > 10 && price <= 20) { return 8.99; }
                 else if (price > 20 && price <= 30) { return 10.99; }
-                else { return 12.99; }
+                else if (price > 30 && price <= 50) { return 12.99; }
+                else if (price > 50 && price <= 75) { return 17.99; }
+                else { return 20.99; }
             }
             else
             {
-                if (price <= 10) { return 4.99; }
-                else if (price > 10 && price <= 20) { return 6.99; }
-                else if (price > 20 && price <= 30) { return 8.99; }
-                else { return 10.99; }
+                if (price <= 10) { return 7.99; }
+                //else if (price > 10 && price <= 20) { return 6.99; }
+                //else if (price > 20 && price <= 30) { return 8.99; }
+                else { return 8.99; }
             }
         }
 
@@ -140,6 +144,7 @@ namespace AmazonPricingCalculator
         {
             label7.ForeColor = Color.Black;
             label7.Text = "Amazon Price:";
+            label8.Text = "Total Price:";
             text_DN.Text = "";
             text_Comm.Text = "";
             text_Shipping.Text = "";
@@ -147,8 +152,5 @@ namespace AmazonPricingCalculator
             comboBox1.Text = "";
             label13.Text = "Loop Iterations:";
         }
-
-
-
     }
 }

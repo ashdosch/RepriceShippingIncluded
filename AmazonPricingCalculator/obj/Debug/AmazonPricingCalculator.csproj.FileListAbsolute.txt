@@ -25,3 +25,12 @@ F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csprojResol
 F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.SingleRepricer.resources
 F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.Properties.Resources.resources
 F:\Reprice\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csproj.GenerateResource.Cache
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.exe.config
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.exe
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\bin\Debug\AmazonPricingCalculator.pdb
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csprojResolveAssemblyReference.cache
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.SingleRepricer.resources
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.Properties.Resources.resources
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.csproj.GenerateResource.Cache
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.exe
+\\SERVER2011\RedirectedFolders\AshleyD\My Documents\RepriceShippingIncluded\AmazonPricingCalculator\obj\Debug\AmazonPricingCalculator.pdb
